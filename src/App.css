@@ -4,7 +4,9 @@
 
 .main-text {
   color: white;
-  background-color: var(--primary);
+  border-radius: 5px; /* make div rounded. */
+  padding: 3%; 
+  background-color: var(--secondary);
 } 
 
 .dark-container {
