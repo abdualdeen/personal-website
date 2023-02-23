@@ -1,6 +1,8 @@
 import NavBar from "./components/NavBar";
 import "./App.css";
 
+// The app is also the home page. I could have added a separate home page but I felt that would clutter the project and add yet another layer that is not needed.
+// There is the index.html, then the main.tsx, and app.tsx. Enough clutter.
 function App() {
   return (
     <div className="App">

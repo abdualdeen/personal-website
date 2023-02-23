@@ -1,3 +1,10 @@
+import NavBar from "../components/NavBar";
+
 export default function Charts() {
-    <h1>hello world!</h1>
+  return (
+    <>
+      <NavBar />
+      <h1>hello world!</h1>
+    </>
+  );
 }

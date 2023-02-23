@@ -8,3 +8,8 @@
   --accent: #ffff00ff;
 }
 
+#root {
+  background-color: var(--primary);
+  min-height: 100vh;
+}
+
