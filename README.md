@@ -12,18 +12,18 @@ npm i
 and to start the server,
 
 ```
-vite
+npm run dev
 ```
 
 or 
 
 ```
-npm run dev
+vite
 ```
 
 ### Tech Stack 
 
-* App created using vite
-* Written in TypeScript
 * ReactJS 
-* Bootstrap for CSS
+* Vite
+* TypeScript
+* Tailwind for CSS
