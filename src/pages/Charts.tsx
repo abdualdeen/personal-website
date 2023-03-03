@@ -18,7 +18,8 @@ export default function Charts() {
   return (
     <>
       <NavBar />
-      <div className="mt-20 flex justify-center"> {/* this div exists so the text div below can be centered. */}
+      <div className="mt-20 flex justify-center">
+        {/* the div above exists so the text div below can be centered. */}
         <div className="inline-block rounded-md bg-neutral-700 px-3 py-3">
           <div style={{ width: 800 }}>
             <BarChart chartData={popData} />

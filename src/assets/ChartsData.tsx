@@ -171,12 +171,10 @@ export const populationData = [
     year: 2020,
     population: 1961504,
   },
-  ,
   {
     year: 2021,
     population: 1963692,
   },
-  ,
   {
     year: 2022,
     population: 1966441,
