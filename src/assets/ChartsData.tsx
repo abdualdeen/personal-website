@@ -180,3 +180,59 @@ export const populationData = [
     population: 1966441,
   },
 ];
+
+export const propertyCrimesData = [
+  {
+    year: 2020,
+    burglary: 3681,
+    larcenyTheft: 23531,
+    vehicleTheft: 4569,
+    arson: 139
+  },
+  {
+    year: 2021,
+    burglary: 2379,
+    larcenyTheft: 15560,
+    vehicleTheft: 1793,
+    arson: 176
+  },
+
+];
+
+export const propertyCrimeData2020 = [
+  {
+    name: "Burglary",
+    number: 3681
+  },
+  {
+    name: "Larceny-Theft",
+    number: 23531
+  },
+  {
+    name: "Automobile Theft",
+    number: 4569
+  },
+  {
+    name: "Arson",
+    number: 139
+  },
+];
+
+export const propertyCrimeData2021 = [
+  {
+    name: "Burglary",
+    number: 2379
+  },
+  {
+    name: "Larceny-Theft",
+    number: 15560
+  },
+  {
+    name: "Automobile Theft",
+    number: 1793
+  },
+  {
+    name: "Arson",
+    number: 176
+  },
+];
