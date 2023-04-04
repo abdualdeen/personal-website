@@ -3,9 +3,11 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigationItems = [
   { name: "Home", href: "/", current: false },
-  { name: "Blog", href: "/blog", current: false },
   { name: "Charts", href: "/charts", current: false },
-  { name: "My Github", href: "https://github.com/ahamad2", current: false }
+  { name: "My Github", href: "https://github.com/ahamad2", current: false },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/abdullah-hamad-530a55257/", current: false },
+  { name: "Resume", href: "https://drive.google.com/file/d/1sIXq61oS_ZhjwDxb_AsBkpBKWlRYuw4p/view", current: false },
+  
 ];
 
 function classNames(...classes: string[]) {
@@ -35,12 +37,12 @@ export default function NavBar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-10 w-auto lg:hidden"
-                    src="./website-logo.svg"
+                    src="./website-logo.png"
                     alt=""
                   />
                   <img
                     className="hidden h-8 w-auto lg:block"
-                    src="./website-logo.svg"
+                    src="./website-logo.png"
                     alt=""
                   />
                 </div>
