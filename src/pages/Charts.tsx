@@ -60,15 +60,15 @@ export default function Charts() {
           <h1 className="text-center text-yellow-300">
             Nebraska's Crime Break Down
           </h1>
-          <div className="mx-auto columns-2 justify-center">
+          <div className="mx-auto columns-2 justify-center text-center">
             <div>
-              <h3>2020</h3>
+              <h3 className="text-yellow-300">2020</h3>
               <div className="mx-auto w-3/5">
                 <PieChart chartData={crimeData20} />
               </div>
             </div>
             <div>
-              <h3>2021</h3>
+              <h3 className="text-yellow-300">2021</h3>
               <div className="mx-auto w-3/5">
                 <PieChart chartData={crimeData21} />
               </div>
