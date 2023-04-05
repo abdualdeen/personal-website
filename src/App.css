@@ -1,15 +1,1 @@
-#root {
-  background-color: var(--primary);
-}
 
-.main-text {
-  color: white;
-  border-radius: 5px; /* make div rounded. */
-  padding: 3%; 
-  background-color: var(--secondary);
-} 
-
-.dark-container {
-  background-color: var(--primary);
-  min-height: 100vh;
-}
