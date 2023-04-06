@@ -1,6 +1,5 @@
 import NavBar from "./components/NavBar";
 import "./App.css";
-import Letter from "./components/Letter";
 import ScrollingHello from "./components/ScrollingHello";
 import ProgrammingIconsList from "./components/ProgrammingIconsList";
 import Pacman from "./components/Pacman";

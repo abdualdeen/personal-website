@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# ignore deploy to firebase
+deploy
+.env
+.firebase 
