@@ -8,8 +8,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
-console.log(process.env.appId);
-
 const firebaseConfig = {
   apiKey: "AIzaSyBU1fjZ3fMLKryudRPULeU3wxUtiUKb_K4",
   authDomain: "abdullahhamad-ef3e2.firebaseapp.com",
