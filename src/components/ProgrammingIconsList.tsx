@@ -39,6 +39,20 @@ function ProgrammingIconsList() {
           className="icon"
         />
       </a>
+      <a href="https://react.dev/">
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+          alt="React"
+          className="icon"
+        />
+      </a>
+      <a href="https://firebase.google.com/">
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg"
+          alt="Firebase"
+          className="icon"
+        />
+      </a>
       <a href="https://www.w3.org/Style/CSS/Overview.en.html">
         <img
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
