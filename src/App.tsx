@@ -1,9 +1,9 @@
 import NavBar from "./components/NavBar";
 import "./App.css";
-import Letter from "./components/Letter";
 import ScrollingHello from "./components/ScrollingHello";
 import ProgrammingIconsList from "./components/ProgrammingIconsList";
 import Pacman from "./components/Pacman";
+import WebsiteIconList from './components/WebsiteIconList';
 
 // The app is also the home page. I could have added a separate home page but I felt that would clutter the project and add yet another layer that is not needed.
 // There is the index.html, then the main.tsx, and app.tsx. Enough clutter.
@@ -15,16 +15,23 @@ function App() {
         {/* the div above exists so the text div below can be centered. */}
         <div className="inline-block rounded-md px-3 py-3 text-center text-xl text-white">
           <ScrollingHello />
-          <h2 className="text-yellow-300">Abdullah Hamad</h2>
-          <h3 className="text-neutral-500">
-            A software engineer with a passion for building software!
+          <h1 className="text-yellow-300 text-3xl">Abdullah Hamad</h1>
+          <h3 className="text-neutral-500 text-xl">
+            Hi! This website was created to show some of what I am capable of. Don't worry though! I can do a lot more.
+            <br/>
+            Checkout the menu to see more of my projects in Github, and some simple charts I built as a demo!
           </h3>
+          
+          <h4 className='mt-10'>This website was built using these technologies:</h4>
+          <div className="">
+              <WebsiteIconList />
+            </div>
           <div className="mt-20">
             <Pacman className="mx-auto" />
           </div>
-          <div className="mt-20">
+          <div className="mt-20 text-2xl">
             <h4>
-              Here are programming languages or libraries I am familiar with
+              Here are programming languages or technologies I am familiar with:
             </h4>
             <div className="rounded-md bg-neutral-700">
               <ProgrammingIconsList />
@@ -33,8 +40,8 @@ function App() {
         </div>
       </div>
 
-      <div className="mt-20 flex justify-center">
-        <h4 className="text-neutral-500">
+      <div className="p-10 flex justify-center text-center">
+        <h4 className="text-neutral-500 text-xl">
           Wanna get in touch? Checkout my{" "}
           <a
             className="text-yellow-300"
