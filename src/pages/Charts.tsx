@@ -48,7 +48,7 @@ export default function Charts() {
       <div className="mt-20 flex items-center justify-center">
         {/* the div above exists so the text div below can be centered. */}
         <div className="container mx-auto inline-block justify-center space-y-5 px-3 py-3">
-          <h1 className="text-center text-yellow-300">
+          <h1 className="text-center text-3xl text-yellow-300">
             Nebraska's Population 1960 - 2022
           </h1>
           <div className="mx-auto w-3/5">
@@ -57,23 +57,43 @@ export default function Charts() {
           <div className="mx-auto w-3/5">
             <LineChart chartData={popData} />
           </div>
-          <h1 className="text-center text-yellow-300">
-            Nebraska's Crime Break Down
+          <h6 className="text-center text-neutral-500">
+            Source:{" "}
+            <a
+              className="underline"
+              href="https://neo.ne.gov/programs/stats/inf/76.html"
+            >
+              State Energy Data Report
+            </a>
+          </h6>
+          {/* Divider */}
+          <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
+          <h1 className="text-center text-3xl text-yellow-300">
+            Nebraska's Property Crime Break Down
           </h1>
           <div className="mx-auto columns-2 justify-center text-center">
             <div>
-              <h3 className="text-yellow-300">2020</h3>
+              <h3 className="text-2xl text-yellow-300">2020</h3>
               <div className="mx-auto w-3/5">
                 <PieChart chartData={crimeData20} />
               </div>
             </div>
             <div>
-              <h3 className="text-yellow-300">2021</h3>
+              <h3 className="text-2xl text-yellow-300">2021</h3>
               <div className="mx-auto w-3/5">
                 <PieChart chartData={crimeData21} />
               </div>
             </div>
           </div>
+          <h6 className="text-center text-neutral-500">
+            Source:{" "}
+            <a
+              className="underline"
+              href="https://ncc.nebraska.gov/stat-reports"
+            >
+              Nebraska Crime Commission Reports
+            </a>
+          </h6>
         </div>
       </div>
     </>

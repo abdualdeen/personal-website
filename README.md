@@ -27,3 +27,5 @@ vite
 * Vite
 * TypeScript
 * Tailwind for CSS
+* ChartsJS
+* Firebase
