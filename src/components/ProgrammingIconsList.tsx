@@ -4,6 +4,13 @@ import "./programmingIconsList.css";
 function ProgrammingIconsList() {
   return (
     <div className="container">
+       <a href="https://git-scm.com/">
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain-wordmark.svg"
+          alt="Git"
+          className="icon"
+        />
+      </a>
       <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">
         <img
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg"

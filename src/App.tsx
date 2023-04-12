@@ -31,7 +31,7 @@ function App() {
           </div>
           <div className="mt-20 text-2xl">
             <h4>
-              Here are programming languages or technologies I am familiar with:
+              Here are programming languages, libraries and tools I am familiar with:
             </h4>
             <div className="rounded-md bg-neutral-700">
               <ProgrammingIconsList />
