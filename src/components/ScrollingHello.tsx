@@ -9,15 +9,14 @@ function ScrollingHello() {
         rel="stylesheet"
       ></link>
 
-      <div className="content">
+      <div id="scrollingHello" className="content justify-center inline-block">
         <div className="content__container">
-          <p className="content__container__text">Hello</p>
 
           <ul className="content__container__list">
-            <li className="content__container__list__item">world !</li>
-            <li className="content__container__list__item">visitor !</li>
-            <li className="content__container__list__item">Abdullah !</li>
-            <li className="content__container__list__item">mom !</li>
+            <li className="content__container__list__item">Hello world !</li>
+            <li className="content__container__list__item">Hello visitor !</li>
+            <li className="content__container__list__item">Hello Abdullah !</li>
+            <li className="content__container__list__item">Hi Mom !</li>
           </ul>
         </div>
       </div>

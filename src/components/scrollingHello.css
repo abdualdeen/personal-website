@@ -1,9 +1,4 @@
 .content {
-  /* top and left here can be used to control the position of the element. */
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   height: 160px;
   overflow: hidden;
   font-family: "Lato", sans-serif;
@@ -17,15 +12,7 @@
   height: 40px;
   padding: 0 40px;
 }
-.content__container:before {
-  content: "[";
-  left: 0;
-}
-.content__container:after {
-  content: "]";
-  position: absolute;
-  right: 0;
-}
+
 .content__container:after,
 .content__container:before {
   position: absolute;
@@ -40,15 +27,9 @@
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-.content__container__text {
-  display: inline;
-  float: left;
-  margin: 0;
-}
+
 .content__container__list {
   margin-top: 0;
-  padding-left: 110px;
-  text-align: left;
   list-style: none;
   -webkit-animation-name: change;
   -webkit-animation-duration: 10s;
