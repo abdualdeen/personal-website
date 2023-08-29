@@ -51,10 +51,10 @@ export default function Charts() {
           <h1 className="text-center text-3xl text-yellow-300">
             Nebraska's Population 1960 - 2022
           </h1>
-          <div className="mx-auto w-3/5">
+          <div className="mx-auto lg:w-3/5">
             <BarChart chartData={popData} />
           </div>
-          <div className="mx-auto w-3/5">
+          <div className="mx-auto lg:w-3/5">
             <LineChart chartData={popData} />
           </div>
           <h6 className="text-center text-neutral-500">
@@ -71,16 +71,16 @@ export default function Charts() {
           <h1 className="text-center text-3xl text-yellow-300">
             Nebraska's Property Crime Break Down
           </h1>
-          <div className="mx-auto columns-2 justify-center text-center">
+          <div className="mx-auto lg:columns-2 justify-center text-center">
             <div>
               <h3 className="text-2xl text-yellow-300">2020</h3>
-              <div className="mx-auto w-3/5">
+              <div className="mx-auto lg:w-3/5 mb-10">
                 <PieChart chartData={crimeData20} />
               </div>
             </div>
             <div>
               <h3 className="text-2xl text-yellow-300">2021</h3>
-              <div className="mx-auto w-3/5">
+              <div className="mx-auto lg:w-3/5">
                 <PieChart chartData={crimeData21} />
               </div>
             </div>
