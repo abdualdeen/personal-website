@@ -29,3 +29,23 @@ vite
 * Tailwind for CSS
 * ChartsJS
 * Firebase
+
+### Build and Deploy
+
+To build the project:
+
+```
+npm run build
+```
+
+then to emulate running the built project for testing before deployment:
+
+```
+firebase emulators:start
+```
+
+to deploy:
+
+```
+firebase deploy
+```

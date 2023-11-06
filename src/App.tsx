@@ -15,7 +15,7 @@ function App() {
         {/* the div above exists so the text div below can be centered. */}
         <div className="inline-block rounded-md px-3 py-3 text-center text-xl text-white">
           <ScrollingHello />
-          <h1 className="text-yellow-300 text-3xl">Abdullah Hamad</h1>
+          <h1 className="text-yellow-300 text-3xl">Abdullah Aldeen</h1>
           <h3 className="text-neutral-500 text-xl">
             Hi! This website was created to show some of what I am capable of. Don't worry though! I can do a lot more.
             <br/>
@@ -52,7 +52,7 @@ function App() {
           for my contact information or{" "}
           <a
             className="text-yellow-300"
-            href="https://www.linkedin.com/in/abdullah-hamad-530a55257/"
+            href="https://www.linkedin.com/in/abdullah-aldeen/"
           >
             LinkedIn
           </a>
