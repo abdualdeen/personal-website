@@ -45,7 +45,7 @@ function App() {
           Wanna get in touch? Checkout my{" "}
           <a
             className="text-yellow-300"
-            href="https://drive.google.com/file/d/1sIXq61oS_ZhjwDxb_AsBkpBKWlRYuw4p/view"
+            href="https://drive.google.com/file/d/1Y2Ydd4HnlzLOtp2Ija_6kIP9DgV8zVaC/view"
           >
             Resume
           </a>{" "}
