@@ -10,7 +10,7 @@
       {
         "source": "**",
         "destination": "/index.html",
-        "_comment": "this section is needed for this site to be properly to firebase, I believe it makes it static."
+        "_comment": "this section is needed for this site to be properly deployed to firebase, I believe it makes it static."
       }
     ]
   },

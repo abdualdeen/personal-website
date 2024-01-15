@@ -60,6 +60,20 @@ function ProgrammingIconsList() {
           className="icon"
         />
       </a>
+      <a href="https://flutter.dev/">
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg"
+          alt="Flutter"
+          className="icon"
+        />
+      </a>
+      <a href="https://dart.dev/">
+        <img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original-wordmark.svg"
+          alt="Dart"
+          className="icon"
+        />
+      </a>
       <a href="https://www.w3.org/Style/CSS/Overview.en.html">
         <img
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"

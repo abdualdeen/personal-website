@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigationItems = [
   { name: "Home", href: "/", current: false },
   { name: "Charts", href: "/charts", current: false },
-  { name: "My Github", href: "https://github.com/ahamad2", current: false },
+  { name: "My Github", href: "https://github.com/abdualdeen", current: false },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/abdullah-aldeen/", current: false },
   { name: "Resume", href: "https://drive.google.com/file/d/1Y2Ydd4HnlzLOtp2Ija_6kIP9DgV8zVaC/view", current: false },
   
