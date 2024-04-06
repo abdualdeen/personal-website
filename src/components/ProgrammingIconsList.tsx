@@ -90,7 +90,7 @@ function ProgrammingIconsList() {
       </a>
       <a href="https://tailwindcss.com/">
         <img
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg"
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
           alt="TailwindCSS"
           className="icon"
         />

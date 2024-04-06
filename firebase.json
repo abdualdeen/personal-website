@@ -16,7 +16,7 @@
   },
   "emulators": {
     "hosting": {
-      "host": "10.0.0.22",
+      "host": "localhost",
       "port": 5000,
       "_comment": "the emulators section is added so other devices can see the local server on the network for testing."
     }
