@@ -1,5 +1,5 @@
 # personal-website
-repo for my personal website.
+repo for my personal website. Visit at [abdullahaldeen.dev](https://abdullahaldeen.dev/)
 
 ### Quick Start
 
