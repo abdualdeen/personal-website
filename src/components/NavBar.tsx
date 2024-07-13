@@ -7,6 +7,7 @@ const navigationItems = [
   { name: "My Github", href: "https://github.com/abdualdeen", current: false },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/abdullah-aldeen/", current: false },
   { name: "Resume", href: "https://drive.google.com/file/d/1Y2Ydd4HnlzLOtp2Ija_6kIP9DgV8zVaC/view", current: false },
+  { name: "Projects", href: "/projects", current: false},
   
 ];
 

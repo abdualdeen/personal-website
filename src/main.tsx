@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Charts from "./pages/Charts";
 import "./index.css";
+import Projects from "./pages/Projects";
 
 /**
  * Initializing Firebase
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
     path: "charts",
     element: <Charts />,
   },
+  {
+    path: "projects",
+    element: <Projects />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
