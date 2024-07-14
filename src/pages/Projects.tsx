@@ -15,7 +15,8 @@ export default function Projects() {
           </p>
         </div>
         <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-          <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+          {/* First card */}
+          <div className="flex flex-col overflow-hidden rounded-lg shadow-lg animate-fade-in-down"> 
             <div className="flex-shrink-0">
               <img
                 className="h-48 w-full object-cover"
@@ -37,8 +38,8 @@ export default function Projects() {
               
             </div>
           </div>
-
-          <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+          {/* Second card */}
+          <div className="flex flex-col overflow-hidden rounded-lg shadow-lg animate-fade-in-down">
             <div className="flex-shrink-0">
               <img
                 className="h-48 w-full object-cover"
@@ -60,8 +61,8 @@ export default function Projects() {
               
             </div>
           </div>
-
-          <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+          {/* Third card */}
+          <div className="flex flex-col overflow-hidden rounded-lg shadow-lg animate-fade-in-down">
             <div className="flex-shrink-0">
               <img
                 className="h-48 w-full object-cover"
