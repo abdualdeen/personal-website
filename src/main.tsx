@@ -5,6 +5,7 @@ import App from "./App";
 import Charts from "./pages/Charts";
 import "./index.css";
 import Projects from "./pages/Projects";
+import SubmissionPortal from "./pages/SubmissionPortal";
 
 /**
  * Initializing Firebase
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "projects",
     element: <Projects />,
+  },
+  {
+    path: "projects/submissionportal",
+    element: <SubmissionPortal />
   }
 ]);
 

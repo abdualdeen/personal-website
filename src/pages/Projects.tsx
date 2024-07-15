@@ -11,7 +11,7 @@ export default function Projects() {
             Here are (some) projects I've worked on.
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-xl text-neutral-400 sm:mt-4">
-            Click on one if you want to find out more.
+            Click on the title if you want to find out more.
           </p>
         </div>
         <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
@@ -49,7 +49,7 @@ export default function Projects() {
             </div>
             <div className="flex flex-1 flex-col justify-between bg-neutral-700 p-6">
               <div className="flex-1">
-                <a href="#" className="mt-2 block">
+                <a href="projects/submissionportal" className="mt-2 block">
                   <p className="text-xl font-semibold text-gray-300">
                     Ticket Submission Portal and Dashboard
                   </p>
@@ -72,7 +72,7 @@ export default function Projects() {
             </div>
             <div className="flex flex-1 flex-col justify-between bg-neutral-700 p-6">
               <div className="flex-1">
-                <a href="#" className="mt-2 block">
+                <a href="https://github.com/NathanKolbas/GonePhishing" className="mt-2 block">
                   <p className="text-xl font-semibold text-gray-300">
                     AI Phishing Extension
                   </p>
