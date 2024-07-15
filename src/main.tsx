@@ -6,6 +6,7 @@ import Charts from "./pages/Charts";
 import "./index.css";
 import Projects from "./pages/Projects";
 import SubmissionPortal from "./pages/SubmissionPortal";
+import WeightApp from "./pages/WeightApp";
 
 /**
  * Initializing Firebase
@@ -42,7 +43,6 @@ if (!window.location.origin.includes("localhost:5173")) {
     });
 }
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -58,8 +58,12 @@ const router = createBrowserRouter([
   },
   {
     path: "projects/submissionportal",
-    element: <SubmissionPortal />
-  }
+    element: <SubmissionPortal />,
+  },
+  {
+    path: "projects/weightapp",
+    element: <WeightApp />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
