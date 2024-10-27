@@ -31,7 +31,7 @@ export default function Projects() {
                     Weight Tracking App
                   </p>
                   <p className="mt-3 text-base text-gray-400">
-                    A simple app that tracks your weight created using flutter.
+                    A user-friendly minimalist app that tracks your weight created using flutter.
                   </p>
                 </a>
               </div>
